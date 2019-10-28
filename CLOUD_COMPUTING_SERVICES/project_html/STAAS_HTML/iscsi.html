@@ -1,0 +1,112 @@
+<!DOCTYPE html >
+<html>
+<style type="text/css">
+.l
+{
+	width:55%;
+	height:45%;
+	position: absolute;
+	top:60px;
+	left:300px;
+	background:#ff704d;
+	border: none;
+	box-shadow: 10px 20px 30px black;
+	color:snow;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-shadow: 2px 3px 4px #33ccff;
+
+}
+.hh
+{
+	width:120px;
+	font-family: Helvetica;
+	font-size: 18px;
+	text-shadow: 1px 2px 3px orange;
+	box-shadow: 3px 4px 5px  black;
+	color:#ff704d;
+	background:black;
+	border:none;
+
+}
+.l1
+{
+	position: absolute;
+	top:400px;
+	left:300px;
+	background: #997a00;
+
+
+}
+.hh1
+{
+	color: #997a00;
+}
+body
+{
+	background:url('14.jpg');
+}
+</style>
+<body>
+
+
+
+ <form action="http://192.168.122.1/cgi-bin/iscsi.cgi">
+ <center>
+  <fieldset class="l">
+    <center><legend>Block Storage </legend></center><br><br><br>
+    Size of Partition (in MB)&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40" name="p"placeholder="   size inMB "style="border-radius:18px;box-shadow:1px 2px 3px gold;font-size:18px;font-family:Helvetica;"><br><br>
+      Enter partition Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40" name="r"placeholder="   Name of partition"style="border-radius:12px;box-shadow:1px 2px 3px gold;font-size:18px;font-family:Helvetica;"><br><br>
+     <br><input type="submit" value="Get it" class="hh"><br>
+    
+  </fieldset>
+  </center>
+
+</form> 
+
+
+ <form action="http://192.168.122.1/cgi-bin/extension2.cgi">
+ <center>
+  <fieldset class="l l1">
+    <center><legend>Extend Partition</legend></center><br><br><br>
+    Extending Size (in MB)&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40" name="p"placeholder="   size inMB "style="border-radius:18px;box-shadow:1px 2px 3px gold;font-size:18px;font-family:Helvetica;"><br><br>
+      Enter partition Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40" name="r"placeholder="   Name of partition"style="border-radius:12px;box-shadow:1px 2px 3px gold;font-size:18px;font-family:Helvetica;"><br><br>
+     <br><input type="submit" value="Get it" class="hh hh1"><br>
+    
+  </fieldset>
+  </center>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

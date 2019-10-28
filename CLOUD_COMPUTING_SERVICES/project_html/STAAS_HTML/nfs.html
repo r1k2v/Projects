@@ -1,0 +1,96 @@
+<!DOCTYPE html >
+<html>
+<style>
+.jj
+{
+position:absolute;
+top:3%;
+left:21.3%;
+width:55%;
+height:50%;
+background:#00bbff;
+color:#ff5050;
+text-shadow:1px 1px 1px black;
+font-family:Arial;
+font-size:22px;
+border-radius:70px;
+box-shadow:10px 20px 30px #9e73ab;
+border:None;
+}
+.kk
+{
+position:absolute;
+top:59%;
+width:55%;
+height:50%;
+background:#b82e1a;
+left:21.3%;
+border-radius:70px;
+text-shadow:1px 2px 3px black;
+color:#4a8a2b;
+font-family:Arial;
+font-size:22px;
+box-shadow:10px 20px 30px #66b259;
+border:None;
+
+}
+</style>
+<body style="background:url('m.jpg');">
+
+
+<center>
+ <form action="http://192.168.122.1/cgi-bin/nfs.cgi" method="post">
+  <fieldset class="jj"><br>
+    <center><legend style="font-weight:bold;font-family:Helvetica;text-shadow:5px 5px 5px black;font-size:35px;color:#ff9900;">O&nbsp;b&nbsp;j&nbsp;e&nbsp;c&nbsp;t&nbsp;&nbsp; S&nbsp;t&nbsp;o&nbsp;r&nbsp;a&nbsp;g&nbsp;e<br>(NFS) </legend></center><br><br>
+    Size of Drive:&nbsp;&nbsp;&nbsp; <input type="text" size="30" name="x" required pattern="[0-9]{1,}"style="border-radius:10px;color:#cc0033;box-shadow:3px 4px 5px #888888;"placeholder="  size in MB (max 10GB)">&nbsp;&nbsp;*(required)<br><br>
+    Name of Drive: <input type="text" size="30" name="y" required pattern="[a-zA-Z]{1,}"style="border-radius:10px;color:#cc0033;box-shadow:3px 4px 5px #888888;"placeholder="   name of folder">&nbsp;&nbsp;*(required)<br><br>
+<input type="submit" value="Get It" style="width:110px;height:40px;background:#ff3333;font-family:Helvetica;font-size:20px;border:None;border-radius:20px;"> 	
+&nbsp;&nbsp;&nbsp;<input type="button" value="<<&nbsp;Back" style="width:110px;height:40px;font-family:Helvetica;font-size:20px;border:None;background:#191970;border-radius:20px;color:#ff4be5;">     
+  </fieldset>
+</form> 
+
+</center>
+
+
+<center>
+ <form action="http://192.168.122.1/cgi-bin/extension.cgi" method="post">
+  <fieldset class="kk"><br>
+    <center><legend style="font-weight:bold;font-family:Helvetica;text-shadow:5px 5px 5px black;font-size:35px;color:#059ecf;">E&nbsp;x&nbsp;t&nbsp;e&nbsp;n&nbsp;d&nbsp;&nbsp; E&nbsp;x&nbsp;i&nbsp;s&nbsp;t&nbsp;i&nbsp;n&nbsp;g<br>(NFS) </legend></center><br><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Extending Size&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="30" name="x" style="border-radius:10px;color:#cc0033;box-shadow:3px 4px 5px #888888;"placeholder="  size in MB (max 1GB)">&nbsp;&nbsp;*(required)<br><br>
+    Name of Existing Drive&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" size="30" name="y" style="border-radius:10px;color:#cc0033;box-shadow:3px 4px 5px #888888;"placeholder="   name of drive">&nbsp;&nbsp;*(required)<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Extend It" style="width:110px;height:40px;background:#ffcccc;font-family:Helvetica;font-size:20px;border:None;border-radius:20px;"> 	
+&nbsp;&nbsp;&nbsp;<input type="button" value="<<&nbsp;Back" style="width:110px;height:40px;font-family:Helvetica;font-size:20px;border:None;background:#a6ed78;border-radius:20px;">     
+  </fieldset>
+</form> 
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,36 @@
+<html>
+<style>
+fieldset.xh
+{
+position:absolute;
+top:5%;
+left:23%;
+width:50%;
+height:74%;
+color: red;
+border: none;
+box-shadow:10px 10px 10px  #cc3300;
+background-color:   #9932CC;
+
+}
+
+</style>
+<body >
+<center>
+ <form  action="http://192.168.122.1/cgi-bin/osConfiguration.cgi">
+  <fieldset class="xh"><br>
+   <center> <legend style="font-weight:bold;font-size:22px;color:red;">Configure your os:</legend></center><br>
+    Os Name: <input type="text" size="30"style="border-radius:10px;" name="a"placeholder=name><br><br>
+    Os Type: &nbsp;&nbsp;<input type="text" size="30" name="b" style="border-radius:10px;"placeholder=RHEL7><br><br>
+    Ram:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="30" name="c"style="border-radius:10px;"placeholder=1024/2048><br><br>
+    Hard Disk:&nbsp;<input type="text" size="30" name="d"style="border-radius:10px;"placeholder='(inGB)'><br><br>
+    CPU :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <input type="text" size="30" name="e"style="border-radius:10px;"placeholder='1/2/3(core)'><br><br>
+
+
+    <input type="submit" value="Launch OS"style="width:120px;height:40px;position:relative;left:30px;font-family:'Comic Sans MS',cursive,sans-serif;color:#CC3300;background:black;font-weight:bold;border:none;" />
+    <input type="reset" value="Reconfigure"style="width:120px;height:40px;position:relative;left:80px;font-family:'Comic Sans MS',cursive,sans-serif;color:#CC3300;font-weight:bold;background:black;border:none;" />	 	
+  </fieldset>
+</form>
+</center> 
+</body>
+</html>

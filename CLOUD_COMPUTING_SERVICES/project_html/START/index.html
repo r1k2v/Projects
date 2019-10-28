@@ -1,0 +1,312 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+div.x {
+position:absolute;
+border:none;
+
+top:0px;
+left:0px;
+width:1360px;
+height:50px;
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+opacity:0.5;
+}
+
+.y {
+position:absolute;
+border:2px solid green;
+
+top:0px;
+left:0px;
+width:1360px;
+height:50px;
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+}
+
+li {
+float:left;
+}
+
+li a {
+   display:inline-block;
+   color:white;
+   text-align:center;
+   padding:14px 16px;
+   text-decoration:none;
+}
+
+li a:hover {
+ background-color:#111;
+}
+a.ls1
+{
+position:absolute;
+left:60em;
+
+}
+a.ls2
+{
+position:absolute;
+left:1025px;
+}
+a.ls3
+{
+position:absolute;
+left:1110px;
+}
+a.ls4
+{
+position:absolute;
+left:1200px;
+}
+
+div.lw
+{
+border:2px solid green;
+margin-top:15px;
+position:absolute;
+left:67em;
+top:80px;
+height:400px;
+width:280px;
+border-radius:20px;
+background:#7FFF00;
+box-shadow:10px 20px 30px black;
+
+
+}
+form.f
+{
+font-size:18px;
+padding:18px;
+color:MidnightBlue;
+
+}
+div.lo
+{
+position:absolute;
+top:70px;
+left:15px;
+width:270px;
+height:190px;
+border:none;
+background:#7FFF00;
+box-shadow:10px 20px 30px black;
+border-radius:20px;
+
+}
+.bu
+{
+position:absolute;
+top:160px;
+left:30px;
+background:aqua;
+border-radius:20px;
+border:none;
+box-shadow:1px 2px 3px black;
+}
+div.an
+{
+position:absolute;
+top:280px;
+left:20px;
+border:none;
+width:20%;
+height:40%;
+background:#FFFACD;
+color:blue;
+}
+div.coro
+{
+position:absolute;
+top:80px;
+left:300px;
+border:none;
+width:55%;
+height:73%;
+background-image:url(1.jpg);
+transition-property:background-image;
+transition-delay:5s;
+}
+.my:hover
+{
+background-image:url(2.jpg);
+}
+div.b1
+{
+position:absolute;
+top:535px;
+left:200px;
+height:8%;
+width:77%;
+border:none;
+background:rgba(0, 0, 0, 0.08);
+}
+
+.bt
+{
+position:relative;
+top:7px;
+left:20px;
+width:100px;
+height:30px;
+background:aqua;
+border-radius:8px;
+border:none;
+} 
+
+.bt1
+{
+position:relative;
+top:7px;
+left:150px;
+width:100px;
+height:30px;
+background:aqua;
+border-radius:8px;
+border:none;
+} 
+
+.bt2
+{
+position:relative;
+top:7px;
+left:270px;
+width:100px;
+height:30px;
+background:aqua;
+border-radius:8px;
+border:none;
+} 
+
+.bt3
+{
+position:relative;
+top:7px;
+left:390px;
+width:100px;
+height:30px;
+background:aqua;
+border-radius:8px;
+border:none;
+} 
+.bt4
+{
+position:relative;
+top:7px;
+left:510px;
+width:100px;
+height:30px;
+background:aqua;
+border-radius:8px;
+border:none;
+} 
+.rb
+{
+background:#800000;
+border-radius:20px;
+color:#FFB6C1;
+width:100px;
+border:none;
+box-shadow:1px 2px 3px black;
+}
+body{
+	background:url('ee.jpg')  ;
+	
+}
+dropdown:hover
+{
+display:block;
+}
+</style>
+</head>
+<body>
+
+
+<div class="x">
+
+<li><a class="ls1" href="http://192.168.122.1/index.html"><dropdown><b>Home</b>
+<option style="display:none;">iaas</option>
+</dropdown>
+
+<li><a class="ls2" href=""><b>Services</b></a></li>
+<li><a class="ls3" href=""><b>About us</b></a></li>
+<li><a class="ls4" href=""><b>Region</b></a></li>
+</div>
+
+<div class="lw">
+
+<form class="f" action="http://192.168.122.1/cgi-bin/register.fy">
+<center>REGISTER HERE</center>
+Name:
+<input type="text" name="a" required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder="  name "/>
+Email:
+<input type="Email" name="b" required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder="  a@b">
+Username:<br>
+<input type="text" name="c" required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder="  username"><br>
+Password:<br>
+<input type="password" name="d" pattern="[a-zA-Z0-9]{6,}" required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder=" password(must be 6 char)"><br>
+Contact no<br>
+<input type="text" name="e" pattern="[0-9]{10,}"required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder="  Mobileno.(+91)"><br><br>
+<input type="submit" name="f" value="Register"class="rb">
+<input type="reset" name="g"  value="Reset" class="rb"/>
+ 
+</form>
+</div>
+
+<div class="lo">
+<form class="f" action="http://192.168.122.1/cgi-bin/f.py" method="post" onsubmit="location.href='http://192.168.122.1/first.html';">
+<center>LOGIN HERE</center>
+Username:<br/>
+<input type="text" name="a" pattern="[a-zA-Z0-9]{3,}" required style="border-radius:10px;box-shadow:5px 5px 5px grey;" placeholder="  username" /><br/>
+Password:<br/>
+<input type="password" name="b" pattern="[a-zA-Z0-9]{6,}" required style="border-radius:10px;box-shadow:5px 5px 5px grey" placeholder=" password"><br/><br><br>
+<input type="submit" value="Log In" class="bu"    />
+
+
+</form>
+</div>
+
+<div class="an">
+
+<center><b>What's New :</b></center>
+<marquee direction=up>
+- Docker ovartaking all type of markets.<br><br>
+- Splunk is heart throbing.<br><br>
+- Docker have unlimited power. <br><br>
+- Snapshot is our uniqueness in this cloud<br><br>
+- LinuxWorld is mentor for this project<br><br>
+- Rahul Nair sir is the owner of this project.<br><br>
+- This is my first project<br><br> 
+</marquee>
+</div>
+
+<div  class="coro my">
+
+</div>
+
+<div class="b1">
+<form>
+<input type="button" class="bt" value="IAAS" onclick="location.href='http://192.168.122.1/new.html';">
+<input type="button" class="bt1" value="STAAS" onclick="location.href='http://192.168.122.1/stass1.html';">
+<input type="button" class="bt2" value="SAAS" onclick="location.href='http://192.168.122.1/sa.html';">
+<input type="button" class="bt3" value="CAAS" onclick="location.href='http://192.168.122.1/caas.html';">
+<input type="button" class="bt4" value="PAAS" onclick="location.href='http://192.168.122.1/paas.html';">
+</form>
+</div>
+
+
+</body>
+</html>
